@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33103.201
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geohash", "src\Geohash\Geohash.csproj", "{ECA0A95C-8E16-4560-AF46-5EC02564E725}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8FB54449-4B3F-4338-9BEF-3196372DE56F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{D17616FA-0250-4F76-8DE2-1E85873731ED}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		CHANGELOG.md = CHANGELOG.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{218827FD-ACEE-4681-8C9F-1A72657C7FF7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geohash.Tests", "tests\Geohash.Tests\Geohash.Tests.csproj", "{4A494EA1-E035-4F8A-A68B-990E9DE0C793}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "benchmark", "benchmark", "{93B49127-FEAE-4C1B-9CC9-FD396C807E9E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PerfBenchmark", "benchmark\PerfBenchmark\PerfBenchmark.csproj", "{04DC208D-C99B-4A80-8170-15516731F851}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECA0A95C-8E16-4560-AF46-5EC02564E725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECA0A95C-8E16-4560-AF46-5EC02564E725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECA0A95C-8E16-4560-AF46-5EC02564E725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECA0A95C-8E16-4560-AF46-5EC02564E725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A494EA1-E035-4F8A-A68B-990E9DE0C793}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A494EA1-E035-4F8A-A68B-990E9DE0C793}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A494EA1-E035-4F8A-A68B-990E9DE0C793}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A494EA1-E035-4F8A-A68B-990E9DE0C793}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04DC208D-C99B-4A80-8170-15516731F851}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04DC208D-C99B-4A80-8170-15516731F851}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04DC208D-C99B-4A80-8170-15516731F851}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04DC208D-C99B-4A80-8170-15516731F851}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ECA0A95C-8E16-4560-AF46-5EC02564E725} = {8FB54449-4B3F-4338-9BEF-3196372DE56F}
+		{4A494EA1-E035-4F8A-A68B-990E9DE0C793} = {218827FD-ACEE-4681-8C9F-1A72657C7FF7}
+		{04DC208D-C99B-4A80-8170-15516731F851} = {93B49127-FEAE-4C1B-9CC9-FD396C807E9E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C356BE1-A9B1-4D00-B010-DA6E9B896C28}
+	EndGlobalSection
+EndGlobal

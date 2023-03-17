@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <IsPackable>false</IsPackable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="BenchmarkDotNet" Version="0.13.5" />
+        <PackageReference Include="GeoHash.NetCore" Version="1.2.0" />
+        <PackageReference Include="NGeoHash" Version="1.2.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\src\Geohash\Geohash.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Using Include="BenchmarkDotNet.Attributes" />
+        <Using Include="System.Diagnostics.CodeAnalysis" />
+    </ItemGroup>
+
+</Project>
